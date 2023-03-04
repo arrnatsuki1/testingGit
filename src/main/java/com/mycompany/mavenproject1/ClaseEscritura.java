@@ -23,6 +23,8 @@ public class ClaseEscritura {
             bw.close();
             fw.close();
             
+            System.out.println("Hello world");
+            
         } catch (Exception e) {
         }
     }
