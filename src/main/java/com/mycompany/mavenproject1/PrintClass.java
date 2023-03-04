@@ -9,5 +9,11 @@ package com.mycompany.mavenproject1;
  * @author rossopt
  */
 public class PrintClass {
+ 
+    private String texto;
+    
+    void imprimir() {
+        System.out.println(texto);
+    }
     
 }
