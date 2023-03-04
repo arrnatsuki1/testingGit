@@ -18,7 +18,7 @@ public class ClaseEscritura {
             FileWriter fw = new FileWriter("TXT.txt");
             BufferedWriter bw = new BufferedWriter(fw);
             
-            bw.write("hello world");
+            bw.write("CAMBIE EL TEXTO");
             
             bw.close();
             fw.close();
