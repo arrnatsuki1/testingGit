@@ -15,7 +15,7 @@ public class ClaseEscritura {
     
     void escribir() {
         try {
-            FileWriter fw = new FileWriter("MICHIN.txt");
+            FileWriter fw = new FileWriter("MISHINYMISHINA.txt");
             BufferedWriter bw = new BufferedWriter(fw);
             
             bw.write("CAMBIE EL TEXTO");
